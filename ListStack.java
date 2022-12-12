@@ -17,13 +17,13 @@ class ListStack implements StackInterface{
     }
 
     /** Adds data to the top of the stack.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(1) */
     public void push(int value) {
         stack.addLast(value);
     }
 
     /** Removes the data at the top of the stack.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(1) */
     public int pop() {
         int removed = stack.getLast();
         if (stack.isEmpty()) {
