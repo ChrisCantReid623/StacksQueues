@@ -17,13 +17,13 @@ class ArrayQueue implements QueueInterface{
     }
 
     /** Pushes a new value at the back of the queue.
-     * Time Complexity: O(1) */
+     * Time Complexity: O(1) amortized */
     public void enqueue(int value) {
         queue.add(value);
     }
 
     /** Removes the value at the front of the queue.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(n) or O(1) */
     public int dequeue() {
         if (queue.isEmpty()) {
             return -1;
