@@ -17,13 +17,13 @@ class ArrayStack implements StackInterface {
     }
 
     /**Adds a value to the top.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(1) amortized */
     public void push(int value) {
         stack.add(value);
     }
 
     /** Removes the top value.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(1) amortized */
     public int pop() {
         if (stack.isEmpty()) {
             return -1;
