@@ -55,7 +55,7 @@ class ArrayQueue implements QueueInterface{
     }
 
     /** Removes all data.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(1) */
     public void clear() {
         queue.clear();
     }
