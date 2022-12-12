@@ -55,7 +55,7 @@ class ArrayStack implements StackInterface {
     }
 
     /** Removes all values.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(1) */
     public void clear() {
         stack.clear();
     }
