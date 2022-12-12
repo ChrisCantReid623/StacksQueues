@@ -17,7 +17,7 @@ class ListQueue implements QueueInterface{
     }
 
     /** Pushes a new value at the back of the queue.
-     * Time Complexity: O(n) */
+     * Time Complexity: O(1) */
     public void enqueue(int value) {
         queue.addLast(value);
     }
